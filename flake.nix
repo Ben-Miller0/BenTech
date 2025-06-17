@@ -15,7 +15,7 @@
         {
             devShells = forEachSupportedSystem ({ pkgs }:
             let
-                xlibs = with pkgs; with xorg; [ libXcursor libXrandr libXxf86vm xrandr ];
+                xlibs = with pkgs; with xorg; [ libXcursor libXrandr libXxf86vm xrandr libXext libX11 libXrender libXtst libXi ];
             in
             {
                 default = pkgs.mkShell {
