@@ -1,4 +1,3 @@
-item.bentech_meta_item.name=How???
-tile.bentech_meta_block.name=WHAT?
-item.bentech_meta_tool.name=You!
-itemGroup.tabBenTech=Ben Tech
+itemGroup.BenTech=Ben Tech
+item.bentech_Null_Ingot.name=Null Ingot
+item.bentech_Iron_Ingot.name=Iron Ingot
